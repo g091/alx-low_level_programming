@@ -12,11 +12,11 @@ int main(void)
 {
 	int n;
 
-	srand(timne(0));
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 5)
 	{
-		puts("Last digit of %d is greater than 5:the string is greater than 5\n", n);
+		printf("Last digit of %d is greater than 5:the string is greater than 5\n", n);
 	}
 	else if (n == 0)
 	{
@@ -24,7 +24,7 @@ int main(void)
 	}
 	else if (n < 6 > 0)
 	{
-		puts("Last digit of %d is less than 6 and not 0:the string is less than 6 and not 0\n", n);
+		printf("Last digit of %d is less than 6 and not 0:the string is less than 6 and not 0\n", n);
 	}
 	return (0);
 }

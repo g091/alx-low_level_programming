@@ -21,12 +21,10 @@ int main(void)
 	}
 	else if (n == 0)
 	{
-		printf("Last digit of %d is %d the string is 0\n", n, ld);
+		printf("Last digit of %d is %d the string is 0\n", n, l);
 	}
 	else
-	{
 		printf("Last digit of %d is %d the string is less than 6 and not 0\n", n, l);
-	}
 	return (0);
 }
 

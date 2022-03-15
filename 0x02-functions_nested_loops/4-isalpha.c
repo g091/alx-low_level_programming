@@ -8,7 +8,7 @@
 
 int _isalpha(int upp)
 {
-	if ((upp >= 'A' && upp <= 'Z') || (upp >= 'a' && upp <= 'z')
+	if ((upp >= 'A' && upp <= 'Z') || (upp >= 'a' && upp <= 'z'))
 		return (1);
 	else
 		return (0);

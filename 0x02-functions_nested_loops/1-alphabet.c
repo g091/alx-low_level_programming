@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - entry point
+ * print_alphabet - printing a  to z
  * betty style doc for function goes there
  * Return: Always return zero(0)
  */

@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_alphabet - printing a  to z 10 times
+ * print_alphabet_x10 - printing a  to z 10 times
  * betty style doc for function goes there
- * Return: 
+ * Return:
  */
 
 void print_alphabet_x10(void)

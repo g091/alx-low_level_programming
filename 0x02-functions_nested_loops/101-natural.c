@@ -1,25 +1,19 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
- * print_to_98 - natural no.s to 98
- * @n: int
- * Return:
+ * main - prints sum of multiples of 3 & 5
+ * Return: zero
  */
 
-void print_to_98(int n)
+int main(void)
 {
-	if (n < 98)
-	{
-		for (n = n; n < 98; n++)
-			printf("%d, ", n);
-		printf("%d\n", 98);
-	}
-	else
-	{
-		for (n = n; n > 98; n--)
-			printf("%d, ", n);
-		printf("%d\n", 98);
-	}
-}
+	int i, sum;
 
+	for (i = 0; i < 1024; i++)
+	{
+		if (i % 3 == 0 || i % 5 == 0)
+			sum += i;
+	}
+	printf("%d\n", sum);
+	return (0);
+}

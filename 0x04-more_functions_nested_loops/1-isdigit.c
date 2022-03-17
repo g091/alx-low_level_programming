@@ -7,10 +7,13 @@
 
 int _isdigit(int n)
 {
-	for (n = 0; n < 9; n++)
+	for (n >= '0' &&  n <= 9)
 	{
 		return (1);
 	}
 	else
+	{
 		return (0);
+	}
+	_putchar('\n');
 }

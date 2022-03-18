@@ -2,14 +2,20 @@
 
 /**
  * print_numbers - 0 to 9
+ * @num: int
  * Return:
  */
 
 void print_numbers(void)
 {
-	int n;
+	int num;
 
-	for (n = 48; n <= 57; n++)
-		_putchar(n);
-		_putchar('\n');
+	num = '0';
+
+	while (num <= '9')
+	{
+		_putchar(num);
+		num++;
+	}
+	_putchar('\n');
 }

@@ -2,7 +2,6 @@
 
 /**
  * print_numbers - print 0 to 9
- * @n: numbers
  * Return: 0 to 9
  */
 

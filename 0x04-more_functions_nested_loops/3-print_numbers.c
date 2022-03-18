@@ -2,19 +2,18 @@
 
 /**
  * print_numbers - print 0 to 9
- * @num: numbers
+ * @n: numbers
+ * Return: 0 to 9
  */
 
 void print_numbers(void)
 {
-	int num;
+	int n = 0;
 
-	num = '0';
-
-	while (num <= '9')
+	while (n <= 9)
 	{
-		_putchar(num);
-		num++;
+		_putchar(n + '0');
+		n++;
 	}
 	_putchar('\n');
 }

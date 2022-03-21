@@ -1,16 +1,18 @@
 #include "main.h"
 
 /**
- * _puts - prints string to stdout
+ * _puts - prints a string
  * @str: string
  */
 
 void _puts(char *str)
 {
-	while (*str != '\0')
-	{
-		_putchar(*str++);
-	}
+	int i = 0;
 
+	while (str[i] != '\0')
+	{
+		_putchar(str[i]);
+		i++;
+	}
 	_putchar('\n');
 }

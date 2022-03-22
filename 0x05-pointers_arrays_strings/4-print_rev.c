@@ -2,21 +2,21 @@
 
 /**
  * print_rev - reverse string
- * @str: a string
+ * @st: a string
  */
 
-void print_rev(char *str)
+void print_rev(char *st)
 {
 	int i = 0;
 
-	while (str[i] != 0)
+	while (st[i] != 0)
 	{
 		i++;
 	}
 	while (i > 0)
 	{
 		i--;
-		_putchar(str[i]);
+		_putchar(st[i]);
 	}
 	_putchar('\n');
 }

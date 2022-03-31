@@ -25,3 +25,14 @@ Recursion readme.
 
 6. Write a function that returns 1 if the input integer is a prime number, otherwise return 0.
 	* Prototype: int is_prime_number(int n);
+
+ADVANCED TASKS
+
+7. Write a function that returns 1 if a string is a palindrome and 0 if not.
+	* Prototype: int is_palindrome(char *s);
+	* An empty string is a palindrome
+
+8. Write a function that compares two strings and returns 1 if the strings can be considered identical, otherwise return 0.
+	* Prototype: int wildcmp(char *s1, char *s2);
+	* s2 can contain the special character *.
+	* The special char * can replace any string (including an empty string)

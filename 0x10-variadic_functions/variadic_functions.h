@@ -1,5 +1,7 @@
 #ifndef _VARIADIC_FUMCTIONS_H_
 #define _VARIADIC_FUMCTIONS_H_
+#include <stdarg.h>
+#include <stdio.h>
 
 int _putchar(char c);
 int sum_them_all(const unsigned int n, ...);

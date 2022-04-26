@@ -5,18 +5,18 @@
 /**
  * print_listint - prints the elements of a list
  * @h: head of a list
- * Return: no. of nodes
+ * Return: numbers of nodes
  */
 
 size_t print_listint(const listint_t *h)
 {
-	size_t nnodes = 0;
+	size_t newnode = 0;
 
 	while (h != NULL)
 	{
 		printf("%d\n", h->n);
 		h = h->next;
-		nnodes++;
+		newnode++;
 	}
-	return (nnodes);
+	return (newnode);
 }

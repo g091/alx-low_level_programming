@@ -24,7 +24,7 @@
 
 1. Create a script that creates a dynamic library called liball.so from all the .c files that are in the current directory.
 
-**ADVANCED TASK"
+**ADVANCED TASK**
 
 2. Create a dynamic library that contains C functions that can be called from Python.
-	(Use 100-tests.py for reference)
+	- (Use 100-tests.py for reference)

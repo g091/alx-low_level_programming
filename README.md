@@ -1,7 +1,6 @@
 # LOW LEVEL PROGRAMMING README..
 
 
-### C Programming Projects.
+### C PROGRAMMING PROJECTS.
 
 
-###### by iAmZlatan
